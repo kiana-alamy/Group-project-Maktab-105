@@ -74,7 +74,8 @@ have access
 
 **The attributes of the tables should be as follows**
 
-1. Users:
+**1. Users:**
+
 ○ Id
 ○ First name
 ○ Last name
@@ -85,12 +86,14 @@ have access
 ○ ...
 
 **2. Tables:**
+
 ○ Id
 ○ Table number
 ○ Cafe space position
 ○ ...
 
 **3. MenuItems:**
+
 ○ Id
 ○ Name
 ○ Price
@@ -99,7 +102,8 @@ have access
 ○ Serving time period (Optional)
 ○ Estimated cooking time (Optional)
 
-      4. Orders:
+**4. Orders:**
+
 ○ Id
 ○ Table
 ○ Menu Items (food)
@@ -108,7 +112,8 @@ have access
 ○ Timestamp
 ○ …
 
-      5. Receipts:
+**5. Receipts:**
+
 ○ Id
 ○ Orders
 ○ Total price
@@ -119,10 +124,14 @@ have access
 
 ### Section 2:
 
-      - **Fully implement the landing page.**
-      - **Implement the registration and login page for regular users and cashiers**
+**1. Fully implement the landing page.**
+
+**2. Implement the registration and login page for regular users and cashiers**
+
+
 
 ### Section 3:
 
-      - **Fully implement the Cashier Panel.**
-      - **Implement sessions and cookies for the shopping cart**
+**1. Fully implement the Cashier Panel.**
+
+**2. Implement sessions and cookies for the shopping cart**
