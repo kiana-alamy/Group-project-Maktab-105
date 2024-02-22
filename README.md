@@ -73,7 +73,8 @@ have access
 
 
 **The attributes of the tables should be as follows**
-      1. Users:
+
+1. Users:
 ○ Id
 ○ First name
 ○ Last name
@@ -83,13 +84,13 @@ have access
 ○ Extra information such as birthday
 ○ ...
 
-      2. Tables:
+**2. Tables:**
 ○ Id
 ○ Table number
 ○ Cafe space position
 ○ ...
 
-      3. MenuItems:
+**3. MenuItems:**
 ○ Id
 ○ Name
 ○ Price
