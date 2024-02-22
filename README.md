@@ -1,139 +1,159 @@
-# Group-project-Maktab-105
+## Happy Shopaholic Project Kickoff
 
-هـفته22 مـکـتب93
-1
-پروژه کافه
-بهصورت گروهی یک وبسایت برای کافی شاپ طراحی کنید. درادامهویژگی های وبسایت ذکر شده است.
-الزامات فنی:
-◆ Django: Framework
-◆ Git: Version control
-◆ PostgreSQL: Database
-◆ HTML, CSS, JS : Front-end
-◆ Bootstrap CSS framework
-پروژهشماازدو قابلیت اصلیتشکیل شده است:
-الف)Landing page:یک صفحه عمومی از وب سایت کافه که حاوی چندsub-pagesبرای مشاهده
-مشتریان است:
-1.Home:صفحهاصلی پروژه کهبرای جذب مشتریطراحی شدهاستوباید اطالعات کلیدی در مورد
-کافه داشته باشد و طراحی گرافیکی خوبی داشته باشد (toolbar)...،
-2.About:در این بخش اطالعات کاملی در مورد کافه، وب سایت، کارکنان،…داریم.
-3.Contact us:حاویآدرس، شماره تلفن و سایر اطالعات تماس است.همچنین فرمی برای تعامل با
-کاربران از وب سایت داشته باشید.(اختیاری) نمای نقشهکافهرا در صفحه تماس اضافه کنید.
-2
-4.Menu:لیست محصوالت و غذاهایی که باید توسط کافه سرو شود. بخش منو باید شامل موارد زیر باشد:
-محصوالت به همراه قیمت آنهاوبخشکامنت
-دکمه سفارش، برایثبتسفارشو انتخابنوع سفارش(حضوری یا آنالین)توجه شود که در
-سفارش حضوری شماره میز نیز باید ذکر شود.
-5.Cart:سبد خریدکه محصوالت انتخاب شدهتوسط کاربربه آن انتقال داده میشودو پس از طی مراحل
-خرید سفارش مشتری ثبت میشود.
-6.Orders list:پس از ثبت سفارشکاربر میتواندلیستسفارشاتخودرا به همراه وضعیتسفارش
-مشاهده کند. به عنوان مثال: درحال بررسی سفارش،درحالپختو اماده سازی،درحال ارسال یا سرو
-و.….
-ب)Cashier Panel:اینپنل برایصندوقداراناست وبرایمدیریتسفارشات مشتریانطراحیشده است.
-پنلCashierبایددارایویژگیهاییمانندموارد زیرباشد:
-1.Dashboard:میانبرها و اطالعات مهم را برای صندوقدار فراهم می کند. مانند: پیام های دریافتی،
-سفارشات اخیر، ...
-2.Orders:دراینجاعالوه بر وضعیتسفارشو دکمهثبت سفارش،میتوانید وضعیت سفارشها را با
-انجام اقداماتی مانند ارسالبه آشپزخانه،در حال پختو…تغییردهید.شما باید چندینsub pages
-متناسببا انواع حاالت برایسفارشاتداشته باشید.
-سفارشات جدید: لیست سفارشات جدیداز مشتریان.
-سفارشاتدر حال پخت: لیست سفارشاتی که به آشپزخانه ارسال می شود.
-سفارشاتارائه شده: لیست سفارشاتیکهدر روزبه مشتری ارائه می شود.
-سفارشات حذف شده: لیست سفارشاتحذفشده توسط صندوقداریا مشتریان.
-سفارشات پرداخت شده: فهرست سفارشات پرداخت شده.
-آرشیو: تاریخچه کامل سفارشات مشتریان.
-3.Tables:شمارهمیزهای کافه به همراه سفارشات فعلی آنها. صندوقدار می تواند با کلیک بر رویآنها،
-لیست سفارشات هرمیزرا مشاهده کند.همچنین می تواند رسیدهای مربوط به هرمیزرا از این صفحه
-صادر کنند.
-3
-4.Menu Items:اقالم (غذاهایی) که توسط کافه سرو می شوند را مدیریت کنید. صندوقدار می تواند هر
-محصول را از این صفحه اضافه، ویرایش یا حذف کند.
-افزودن اقالم: این بخش به صندوقدار اجازه می دهد تا اقالم جدید (غذاها) را با مشخصات آنها مانند
-نام، قیمت، دسته، توضیحات، تخفیف (اختیاری) به منو اضافه کند.
-ویرایشو حذف: تغییر قیمت محصوالت، تعیین تخفیف برای هر محصول، اضافه کردن توضیحات
-برای آنها، حذف یک محصولاز منوو…
-5.Receipts:لیست رسیدهای صادر شده از سامانه.صندوقدار باید به مشاهده، گزارش و مدیریت رسیدها
-دسترسی داشته باشد.
-جزئیات: صفحه جزئیات رسید.
-پرداخت شده: رسیدهای پرداخت شده توسط مشتریان.
-آرشیو: تاریخچه رسیدها.
-و......
-6.Charts(اختیاری): نمودارهای آماری حاوی اطالعاتی مانند:
-تعداد سفارشات/ساعت
-تعداد سفارشات/روزهای هفته
-دسته بندی ها/ساعت سفارش
-دسته بندی ها/روزهای هفته
-و.......
-توجه:میتوانیدبخشCashier Panelرا درپنلادمینجنگوپیاده سازی کنیدو از ویژگی های
-پیشرفته تر پنل ادمین و شخصی سازی پنل ادمین استفاده کنید.درغیر این صورت بایدCashier
-Panelاختصاصی خود را طراحی کنید.
-4
-فازهای تحویل تمرین
-فازاول:
-Git Configuration:یک ریپازیتوری پرایوت در گیتهاب ایجاد کرده وبههمگروهیان و مربیان خود،
-دسترسی های الزم را بدهید. برنچهای الزم را ایجاد کنید.نامریپازیتوری شما باید به این صورت
-باشد:Maktab93_Cafe_project_group1
-ERD: جداول و روابط بین آنهارا بسازید.اتریبیوتهایتیبل هاباید به شرح زیر باشد:
-● Users:
-○ Id
-○ First name
-○ Last name
-○ Phone number
-○ Email
-○ Password to login with
-○ Extra information such as birthday
-○ ...
-● Tables:
-○ Id
-○ Table number
-○ Cafe space position
-○ ...
-● MenuItems:
-○ Id
-○ Name
-○ Price
-○ Category
-○ Discount (Optional)
-○ Serving time period (Optional)
-○ Estimated cooking time (Optional)
-5
-● Orders:
-○ Id
-○ Table
-○ Menu Items (food)
-○ Number
-○ Status
-○ Timestamp
-○ …
-● Receipts:
-○ Id
-○ Orders
-○ Total price
-○ Final price (with Discount)
-○ Timestamp,
-○ ...
-● (Any other needed models)
-Models: مدل ها را بسازید.
-Home:صفحهاصلیرا ایجاد کنید.
-فازدوم:
-Landing pageرا به صورت کامل پیاده سازی کنید.
-صفحهثبت نام و ورود کاربران عادی و صندوقدار را پیاده سازی کنید.
-فازسوم:
-Cashier Panelرابه صورتکاملپیاده سازی کنید.
-Sessionها و کوکی هارا برای سبد خرید پیاده سازی کنید.
-6
-نکات
-•مهلت ارسالهر فازتا پایان روزچهارشنبههر هفتهاست.
-•توجهشود که نمره این پروژه به صورت گروهی محاسبه میشود.
-•مسئولیتپذیری،کارتیمیومهارت های نرمکاروندان نیز دارای نمرهمیباشد.
-•آدرس ریپازیتوریرا در کارتابل شخصیخوداعالم کردهو تیمتدریسرا بعنوانcollaboratorبیفزایید:
-•پوریا منصوری
-•الهه پاسبان
-•سجاد کاشی
-•آرین همدانی
-•امیرحسین حسنی
-•مالک و معیارارزیابیتاریخآخرینcommitشما میباشد(بصورت استاندارد و اصولیکامیتانجام شود).
-•قطعا هدف از تمارین صرفا رسیدن به جواب نهایی نیست و تمیز بودن کد و خالقیتی که در انجامآن به خرج می
-دهید از اهمیت و امتیاز باالیی برخوردار است. ارائه راه حل کلی و عمومی برای یک مسئله که حالت های مختلف
-آن را در نظر بگیرد و فراتر از خواسته ی مسئله است(خواسته ی مسئله گسترش داده شود یا حالت های خاص
-مسئله را پوشش دهد. قطعامشمول امتیاز بیشتریخواهد شد.)
-در صورتیکه سوالی داریددر گروه راکت چتبپرسید.
+Welcome to the Cafe project
+
+Design a website for a coffee shop as a group. It is mentioned in the website features.
+Technical . 💻👨‍💼
+
+## requirements
+   - Django: Framework
+   - Git: Version control
+   - PostgreSQL: Database
+   - HTML, CSS, JS: Front-end
+   - Bootstrap CSS framework
+
+## Description
+
+1. **Landing page: A general page of the cafe's website that contains several sub-pages for viewing
+Customers are:**
+   - Home: The main page of the project, which is designed to attract customers, should be the key information about
+have a cafe and have a good graphic design (toolbar)...
+   - About: In this section, we have complete information about the cafe, website, staff, etc.
+   - Contact us: contains address, phone number and other contact information. Also a form to interact with
+Have users from the website. (Featured) Add the map view of the cafe on the contact page.
+   - Menu: The list of products and foods that should be served by the cafe. The menu section should include the following:
+Products with their prices and comment section
+order button, to place an order and select the type of order (face-to-face or online).
+The table number must also be mentioned for the in-person order.
+   - Shopping cart: The shopping cart to which the products selected by the user are transferred after going through the steps
+The purchase order of the customer is recorded.
+   - List of orders: After placing the order, the user can view the list of orders along with the status of the order.
+For example: check order, cook and prepare, send or serve
+And  ...
+
+
+
+
+
+
+
+## Project Sections
+
+### Section 1: Project Setup, Basic Models, and Authentication (80 points)
+
+We gotta get this project up and running! Here are some tasks for you:
+
+1. **Project Setup (20 points)**
+   - Create a new Django project and app.
+   - Configure the app to use PostgreSQL as the database.
+   - Initialize a Git repository and commit your initial project files.
+   
+
+2. **Basic Models (30 points)** 
+   - Create the following models: `Product`, `Category`, `Customer`, `Order`, `OrderItem`, and `Address`.
+   - Define appropriate fields and relationships between models.
+   - Add Django admin configurations for each model.
+
+3. **User Authentication (30 points)** 🔑📱
+   - Implement a custom user model that inherits from `AbstractBaseUser`, using phone numbers for login.
+   - Create OTP verification for phone number authentication using the "Kavenegar" structure, but print the OTP instead of sending it via SMS.
+   - Write unit tests for your authentication views and ensure at least 90% coverage.
+
+### Achievements and Incentives:
+- Early bird bonus: Complete Section 1 by the end of the first week and earn 5 extra points.🐦👀
+- Presentation bonus: Present your completed Section 1 during the nightly meeting with your mentor and earn an additional 5 points.🎤👨‍🏫
+- Completion bonus: Complete all tasks for Section 1 and earn a bonus 10 points.🥳🏆
+
+### Deliverables:
+
+- A Git repository containing your Django project
+
+
+### Section 2: Product Listing and Shopping Cart (100 points)
+
+It's time to let our users in on the fun! Here's what you need to do:
+
+1. **Docker Configuration (15 points)**
+   - Set up a Docker and docker-compose configuration for running the project locally.
+
+2. **Product Listing (35 points)** 🛍️👀
+   - Implement views and templates for displaying products by category.
+   - Add pagination for product listing pages.
+   - Implement search functionality for products.
+   - Write unit tests for your views and ensure at least 90% coverage.
+
+3. **Shopping Cart (50 points)** 🛒💸
+   - Implement a shopping cart using Django sessions.
+   - Allow customers to add and remove products from their cart.
+   - Display the cart contents and total price.
+   - Write unit tests for the shopping cart functionality and ensure at least 90% coverage.
+
+### Achievements and Incentives:
+- Early bird bonus: Complete Section 2 by the end of the second week and earn 10 extra points. 🐥👀
+- Presentation bonus: Present your completed Section 2 during the nightly meeting with your mentor and earn an additional 10 points. 🎤👨‍🏫
+- Completion bonus: Complete all tasks for Section 2 and earn a bonus 20 points. 🎉🏆
+
+### Deliverables:
+
+- Updated Git repository with code for product listing and shopping cart features.
+- A `README.md` file with instructions on how to set up and run the project using Docker.
+
+### Section 3: Checkout Process and Email Notifications (100 points)
+
+It's time to get those items in the cart and on their way to the shopaholic! Here's what you need to do:
+
+1. **Checkout Process (70 points)** 🚚💳
+   - Implement the checkout process, including shipping address and order review.
+   - Create an `Order` object upon successful checkout.
+   - Integrate ZarinPal for payment processing during the checkout process.
+   - Write unit tests for the checkout views and payment processing functionality and ensure at least 90% coverage.
+
+2. **Email Notifications (30 points)** 📧📦
+   - Integrate Celery and Redis for handling background tasks.
+   - Send order confirmation and shipping update emails asynchronously using Celery tasks.
+   - Write unit tests for your email tasks and ensure at least 90% coverage.
+
+### Achievements and Incentives:
+- Early bird bonus:Complete Section 3 by the end of the third week and earn 15 extra points.
+- Presentation bonus: Present your completed Section 3 during the nightly meeting with your mentor and earn an additional 15 points.
+- Completion bonus: Complete all tasks for Section 3 and earn a bonus 30 points.
+
+### Deliverables:
+
+- Updated Git repository with code for checkout process and email notifications features.
+
+### Section 4: API and Performance Optimization (80 points)
+
+It's time to optimize and add some extra shopping features! Here's what you need to do:
+
+1. **API Implementation (40 points)** 📚🤖
+   - Implement a RESTful API for your online shopping platform using Django Rest Framework (DRF).
+   - Add endpoints for products, categories, customers, orders, and authentication.
+   - Write unit tests for your API and ensure at least 90% coverage.
+
+2. **Performance Optimization (40 points)** 🚀🔥
+   - Implement Redis caching for your API endpoints and views.
+   - Optimize database queries using Django's `select_related` and `prefetch_related` methods.
+   - Write unit tests for your optimized views and ensure at least 90% coverage.
+
+### Achievements and Incentives:
+- Early bird bonus: Complete Section 4 by the end of the fourth week and earn 20 extra points. 🐥👀
+- Presentation bonus: Present your completed Section 4 during the nightly meeting with your mentor and earn an additional 20 points. 🎤👨‍🏫
+- Completion bonus: Complete all tasks for Section 4 and earn a bonus 40 points. 🎉🏆
+
+### Deliverables:
+
+- Updated Git repository with code for API and performance optimization features.
+- A `README.md` file with instructions on how to run and test the project, including any additional features you added.
+
+### Final Incentives and Achievements:
+- Perfect Attendance: Attend all nightly meetings with your mentor and earn a bonus 10 points. 🌟👨‍🏫
+- Code Quality: Maintain code quality throughout the project and earn a bonus 20 points. 💻🔍
+- Innovation: Implement an innovative feature that impresses your mentor and earn a bonus 30 points. 🤖💡
+- Early Submission: Submit your project before the deadline and earn a bonus 50 points. 🚀📅
+
+### Conclusion
+
+Congratulations, you've completed the Happy Shopaholic Project! 🎉🎉🎉
+
+You've built an online shopping platform that will make our client's dreams come true. Now, go ahead and celebrate with some online shopping of your own! 🛍️💸
