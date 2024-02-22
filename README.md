@@ -16,6 +16,7 @@ Technical . 💻👨‍💼
 
 1. **Landing page: A general page of the cafe's website that contains several sub-pages for viewing
 Customers are:**
+
    - Home: The main page of the project, which is designed to attract customers, should be the key information about
 have a cafe and have a good graphic design (toolbar)...
    - About: In this section, we have complete information about the cafe, website, staff, etc.
@@ -32,7 +33,15 @@ For example: check order, cook and prepare, send or serve
 And  ...
 
 
+2. **Cashier Panel: This panel is for cashiers and is designed to manage customer orders.
+The Cashier panel should have features such as the following:**
 
+    - Dashboard: Provides shortcuts and important information to the cashier. Such as: received messages,
+Recent orders...
+    - Orders: Here, in addition to the order status and the order registration button, you can check the order status with
+Perform actions such as sending to the kitchen, cooking, etc. Change. You should have several sub pages
+Suit all kinds of situations for orders.
+- New orders: list of new orders from customers.
 
 
 
