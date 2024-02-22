@@ -41,7 +41,7 @@ Recent orders...
     - Orders: Here, in addition to the order status and the order registration button, you can check the order status with
 Perform actions such as sending to the kitchen, cooking, etc. Change. You should have several sub pages
 Suit all kinds of situations for orders.
-- New orders: list of new orders from customers.
+      - New orders: list of new orders from customers.
 
 
 
