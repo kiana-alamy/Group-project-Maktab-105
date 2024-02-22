@@ -73,7 +73,7 @@ have access
 
 
 **The attributes of the tables should be as follows**
-      - **Users:**
+      1. Users:
 ○ Id
 ○ First name
 ○ Last name
@@ -83,13 +83,13 @@ have access
 ○ Extra information such as birthday
 ○ ...
 
-      - **Tables:**
+      2. Tables:
 ○ Id
 ○ Table number
 ○ Cafe space position
 ○ ...
 
-      - **MenuItems:**
+      3. MenuItems:
 ○ Id
 ○ Name
 ○ Price
@@ -98,7 +98,7 @@ have access
 ○ Serving time period (Optional)
 ○ Estimated cooking time (Optional)
 
-      - **Orders:**
+      4. Orders:
 ○ Id
 ○ Table
 ○ Menu Items (food)
@@ -107,7 +107,7 @@ have access
 ○ Timestamp
 ○ …
 
-      - **Receipts:**
+      5. Receipts:
 ○ Id
 ○ Orders
 ○ Total price
