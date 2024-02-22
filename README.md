@@ -1,6 +1,4 @@
-## Happy Shopaholic Project Kickoff
-
-Welcome to the Cafe project
+## Welcome to the Cafe project
 
 Design a website for a coffee shop as a group. It is mentioned in the website features.
 Technical . 💻👨‍💼
