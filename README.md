@@ -74,7 +74,7 @@ have access
 We gotta get this project up and running! Here are some tasks for you:
 
 1. **Project Setup (20 points)**
-● Users:
+      - **Users:**
 ○ Id
 ○ First name
 ○ Last name
@@ -83,12 +83,14 @@ We gotta get this project up and running! Here are some tasks for you:
 ○ Password to login with
 ○ Extra information such as birthday
 ○ ...
-● Tables:
+
+      - **Tables:**
 ○ Id
 ○ Table number
 ○ Cafe space position
 ○ ...
-● MenuItems:
+
+      - **MenuItems:**
 ○ Id
 ○ Name
 ○ Price
@@ -96,8 +98,8 @@ We gotta get this project up and running! Here are some tasks for you:
 ○ Discount (Optional)
 ○ Serving time period (Optional)
 ○ Estimated cooking time (Optional)
-5
-● Orders:
+
+      - **Orders:**
 ○ Id
 ○ Table
 ○ Menu Items (food)
@@ -105,7 +107,8 @@ We gotta get this project up and running! Here are some tasks for you:
 ○ Status
 ○ Timestamp
 ○ …
-● Receipts:
+
+      - **Receipts:**
 ○ Id
 ○ Orders
 ○ Total price
@@ -113,12 +116,12 @@ We gotta get this project up and running! Here are some tasks for you:
 ○ Timestamp
    
 
-2. **Basic Models (30 points)** 
+3. **Basic Models (30 points)** 
    - Create the following models: `Product`, `Category`, `Customer`, `Order`, `OrderItem`, and `Address`.
    - Define appropriate fields and relationships between models.
    - Add Django admin configurations for each model.
 
-3. **User Authentication (30 points)** 🔑📱
+4. **User Authentication (30 points)** 🔑📱
    - Implement a custom user model that inherits from `AbstractBaseUser`, using phone numbers for login.
    - Create OTP verification for phone number authentication using the "Kavenegar" structure, but print the OTP instead of sending it via SMS.
    - Write unit tests for your authentication views and ensure at least 90% coverage.
